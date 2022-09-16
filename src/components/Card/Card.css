@@ -1,0 +1,29 @@
+.Container {
+
+height: 100;
+width: 100;
+background-color: 'maroon';
+}
+
+
+.bra1 {
+height: 40vh;
+ width: 60vw;
+ background-color: gray;
+}
+
+.navbar1 {
+     /* position: absolute;  */
+     color: 'white';
+    padding: 0rem ;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    /* background-color: salmon; */
+    font-size: 8px;;
+    /* z-index: 1; */
+    width: 95%;
+    height: 16vh;
+    margin: auto;
+    
+  }

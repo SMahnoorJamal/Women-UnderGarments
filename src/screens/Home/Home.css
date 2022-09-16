@@ -18,5 +18,13 @@
 .bra1{
 
     height: 45vh;
-    width: 19vw;
+    width: 21vw;
+    background-color: blueviolet;
+}
+
+.bra2{
+
+    height: 60vh;
+    width: 21vw;
+    background-color: blueviolet;
 }
