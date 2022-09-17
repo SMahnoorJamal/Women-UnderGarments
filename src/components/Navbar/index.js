@@ -37,13 +37,13 @@ const Navbar = () => {
           }}>  <NavLink to='/'>
               Home
             </NavLink>
-            <NavLink to='/about' activeStyle>
+            <NavLink to='/about' >
               About
             </NavLink>
-            <NavLink to='/annual' activeStyle>
+            <NavLink to='/annual' >
               Annual Report
             </NavLink>
-            <NavLink to='/blogs' activeStyle>
+            <NavLink to='/blogs' >
               Blogs
             </NavLink> </div>
 

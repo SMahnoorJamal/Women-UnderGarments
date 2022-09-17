@@ -10,11 +10,19 @@ export default function HomeScreen() {
     const map1 = array;
     return (
         <div style={{
-            width: '93vw', display: 'flex', marginLeft: '3vw',
-             height: '100vh', alignItems: 'center', backgroundColor: ' red'
+            width: '95%', display: 'flex', marginLeft: '3vw',
+             height: '100%', alignItems: 'center',
+             backgroundColor: 'red'
         }}>
 
-                    <Card/>
+
+<div style={{marginTop: '17vh'}}>
+<Card/>     
+
+                 
+<Card/>
+</div>
+                    
 
            
                 {/* <div >
