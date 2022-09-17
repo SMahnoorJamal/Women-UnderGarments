@@ -5,44 +5,50 @@ import styled from 'styled-components';
 export const Nav = styled.nav`
 position: fixed;
   // background: #63D471;
-  background: #63D471;
-  height: 70px;
+  background: white;
+  height: 40px;
   display: flex;
   justify-content: space-between;
   padding: 0.2rem calc((100vw - 1000px) / 2);
-  z-index: 12;
+  // z-index: 12;
   overflow: hidden;
-  width: 88%;
+  width: 100%;
   // top: 0;
  border-bottom: solid 1px var(--primary-color);
   align-items: center;
   // opacity: 0.9;
-  // box-shadow: 0 9px 0px 0px white, 0 -9px 0px 0px white,
-  // 12px 0 15px -4px rgba(31, 73, 125, 0.8),
-  //  -12px 0 15px -4px rgba(31, 73, 125, 0.8);
+   box-shadow: 0 0px 0px 0px white, 0 -9px 0px 0px white,
+  12px 0 15px -4px rgba(31, 73, 125, 0.8),
+  -12px 0 15px -4px rgba(31, 73, 125, 0.8);
   /* Third Nav */
   /* justify-content: flex-start; */
 `;
   
 export const NavLink = styled(Link)`
-  color: #808080;
-  display: flex;
-  align-items: center;
-  text-decoration: none;
-  padding: 0 1rem;
-  height: 100%;
-  cursor: pointer;
-  &.active {
-    color: #000000;
+
+   //color: #808080;
+ // display: flex;
+ margin-left: 2vw;
+   //font-size: 8;
+  //  background-color: 'yellow';
+  //  justify-content: 'center';
+  //  align-items: center;
+  // text-decoration: none;
+  // padding: 0 1rem;
+  // height: 20%;
+  // cursor: pointer;
+  // &.active {
+  //   color: #000000;
   }
 `;
-  
+ 
+
 export const Bars = styled(FaBars)`
   display: none;
   color: #808080;
   @media screen and (max-width: 768px) {
     display: block;
-    position: absolute;
+    position: absolute;   
     top: 0;
     right: 0;
     transform: translate(-100%, 75%);
@@ -53,15 +59,17 @@ export const Bars = styled(FaBars)`
   
 export const NavMenu = styled.div`
   display: flex;
-  align-items: center;
-  margin-right: -24px;
-  /* Second Nav */
-  /* margin-right: 24px; */
-  /* Third Nav */
-  /* width: 100vw;
-  white-space: nowrap; */
-  @media screen and (max-width: 768px) {
-    display: none;
+  margin-left: '30vw';
+  //  align-items: center;
+  //  margin-right: 34px;
+  // background-color: 'orange';
+  // /* Second Nav */
+  // /* margin-right: 24px; */
+  // /* Third Nav */
+  // /* width: 100vw;
+  // white-space: nowrap; */
+  // @media screen and (max-width: 768px) {
+  //   display: none;
   }
 `;
   

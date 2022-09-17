@@ -46,13 +46,14 @@ function CardItem() {
             
 
                 <div style={{
-                    width: '21vw', height: '80%', backgroundColor: 'greenyellow'
+                    width: '20.5vw', height: '80%', backgroundColor: 'greenyellow'
                 }}>
 
-                    <div style={{ border: `2px solid red`, width: '20vw', height: '80%', backgroundColor: 'pink' }}>
+                    <div style={{ width: '20vw', height: '80%', }}>
                       
                     <img src={require('../../images/bra1.jpg')}
                         style={{
+                            border: `1px solid lightgray`, 
                             height: '100%',
                             width: '20vw  ',
                             backgroundColor: 'gray'
@@ -61,11 +62,13 @@ function CardItem() {
                    </div>
                     <div className='navbar1'>
 
-                        <label>jnzajhb</label>
-                        <label>jnzajhb</label>
+                        <label>Molded Cup Underwire Lace Bra & Bikni Set</label>
+                        <label style={{marginTop: '1vh'}}>Rs 1,850</label>
 
                     </div>
                 </div>
+
+            
 
         </div>
     )

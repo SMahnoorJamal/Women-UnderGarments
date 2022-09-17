@@ -75,12 +75,12 @@ function App() {
 
 const AppWrapper = () => {
   return (
-  <  Card/>
-    // <Router>
-    //   {/* < Header /> */}
-    //   <Navbar/>
-    //   <App />
-    // </Router>
+  // <  Card/>
+    <Router>
+      {/* < Header /> */}
+      <Navbar/>
+     <App /> 
+    </Router>
   );
 };
 
