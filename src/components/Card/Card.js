@@ -50,7 +50,7 @@ function CardItem() {
                         <ReactStars
                             count={5}
                             onChange={ratingChanged}
-                            size={9}
+                            size={20}
                             activeColor="#ffd700"
                         />
                     </div>
@@ -80,16 +80,17 @@ function CardItem() {
                     <label style={{ marginTop: '1vh' }}>Rs 1,850</label>
 
 
-                    <div>
+
+
+                    {/* <div style={{width: '10vw', backgroundColor: 'orange'}}> */}
                         <ReactStars
                             count={5}
                             onChange={ratingChanged}
-                            size={9}
+                            size={20}
                             activeColor="#ffd700"
                         />
-                    </div>
+                    {/* </div> */}
                 </div>
-
 
             </div>
 

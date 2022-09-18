@@ -20,16 +20,16 @@ const Navbar = () => {
         {/* <Bars /> */}
         <NavMenu>
 
-          <text style={{ marginLeft: '3vw' }}>Curvey wear</text>
+ 
+<div style={{ position: 'absolute', marginLeft: '-5vw',width: '5vw', height: '10vh'}}>
+        <a href="#" style={{fontSize: '2vw'}}>Curvy</a>
 
-          {/* <text style={{ marginLeft: '11vw', fontSize: '1.6vw', marginRight: '1VW' }}
-          >
-            Homegt
-          </text> */}
+        <a style={{ paddingLeft: 6 , fontSize: '2vw'}}>Wear</a>
+      </div>
 
 
           <div style={{
-            marginLeft: '18vw',
+            marginLeft: '20vw',
             fontSize: '1.6vw',
             color: 'red',
             justifyContent: 'space-between',
@@ -45,7 +45,10 @@ const Navbar = () => {
             </NavLink>
             <NavLink to='/blogs' >
               Blogs
-            </NavLink> </div>
+            </NavLink>
+            <NavLink to='/blogs' >
+              Blogs
+            </NavLink>  </div>
 
           {/* <a href="/About"> about </a> */}
 
@@ -59,7 +62,7 @@ const Navbar = () => {
         </NavBtn> */}
 
         <div style={{
-          width: '10%', display: 'flex', marginRight: '3vw'
+          width: '10%', display: 'flex', marginRight: '15.5vw'
 
         }} >
           <  FaShoppingBasket size={27} style={{ marginLeft: '2vw' }} />

@@ -24,19 +24,18 @@ export default function HomeScreen() {
 </div>
                     
 
-           
-                {/* <div >
+           <div >
 
-                    <Card.Title className='Title'>2022 TRA
-                        COLLECTION</Card.Title>
-                    <Card.Text>
+                    <label className='Title'>2022 TRA
+                        COLLECTION</label>
+                    <text>
                         Check out new hottest styles.
-                    </Card.Text>
+                    </text>
                 </div>
 
-                <Card.Img
+                <img
                     className='bra2'
-                    variant="top" src={require('../../images/bra2.PNG')} alt=" bra2" /> */}
+                    variant="top" src={require('../../images/bra2.PNG')} alt=" bra2" /> 
 
         </div>
     )
