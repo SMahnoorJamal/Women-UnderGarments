@@ -1,7 +1,9 @@
 import './Home.css'
-import { Container, 
+import {
+    Container,
     // Card
-     Col, Button } from 'react-bootstrap';
+    Col, Button
+} from 'react-bootstrap';
 import Card from '../../components/Card/Card';
 
 export default function HomeScreen() {
@@ -11,31 +13,42 @@ export default function HomeScreen() {
     return (
         <div style={{
             width: '95%', display: 'flex', marginLeft: '3vw',
-             height: '100%', alignItems: 'center',
-             backgroundColor: 'red'
+            height: '100%', alignItems: 'center',
+            justifyContent: 'space-between',
+            backgroundColor: 'red'
         }}>
 
 
-<div style={{marginTop: '17vh'}}>
-<Card/>     
+            <div style={{ marginTop: '17vh', flexDirection: 'row', display: 'flex' }}>
+                <Card />
 
-                 
-<Card/>
-</div>
-                    
+                <div style={{ backgroundColor: 'PINK', width: '16vw' }} >
 
-           <div >
-
-                    <label className='Title'>2022 TRA
+                    <label className='Title'>2022 BRA
                         COLLECTION</label>
-                    <text>
-                        Check out new hottest styles.
-                    </text>
+                    <div style={{ marginTop: '1vw' }}>
+                        <text>
+                            Check out new hottest styles.
+                        </text>
+                    </div> 
+                    <button style={{ height: '6vh', width: '7vw', marginTop: '4vh' }}>SHOP NOW</button>
                 </div>
 
                 <img
                     className='bra2'
-                    variant="top" src={require('../../images/bra2.PNG')} alt=" bra2" /> 
+                    variant="top" src={require('../../images/bra2.PNG')} alt=" bra2" />
+
+            </div>
+
+
+            <div style={{ marginTop: '6vh' }}>
+                <text >
+                    FEATURED PRODUCTS
+                </text>
+
+                {/* <Card /> */}
+
+            </div>
 
         </div>
     )
