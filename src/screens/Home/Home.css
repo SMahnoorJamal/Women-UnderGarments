@@ -7,12 +7,13 @@
 
 .Title {
  font-size:x-large;
- font-weight: bold;
+ /* font-weight: bold; */
  width: 50%;
  justify-content:center;
  align-items:center;
  margin-left: 50;
- margin-top: 10vh
+ font-size: 45px;
+ /* margin-top: 10vh */
 }
 
 .bra1{
@@ -20,6 +21,7 @@
     height: 45vh;
     width: 21vw;
     background-color: blueviolet;
+  
 }
 
 .bra2{
@@ -27,4 +29,5 @@
     height: 60vh;
     width: 21vw;
     background-color: blueviolet;
+    margin-top: 8%;
 }
