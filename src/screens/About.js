@@ -1,20 +1,14 @@
 import React from 'react';
 
 import Card from '../components/Card/Card';
-
-
   
 const About = () => {
   return (
 
-
       <div style={{
-        // display: 'flex',
         marginTop: 20,
         width: '95%',
       marginLeft: '2.5vw',
-        // justifyContent: 'Right',
-        // alignItems: 'Right',
         height: '100%',
         backgroundColor:'green'
         }}>
