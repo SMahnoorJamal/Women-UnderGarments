@@ -1,7 +1,8 @@
 import './Home.css'
 import {
     Container,
-    // Card
+    // Card,
+    Row,
     Col, Button
 } from 'react-bootstrap';
 import Card from '../../components/Card/Card';
@@ -12,44 +13,72 @@ export default function HomeScreen() {
     const map1 = array;
     return (
         <div style={{
-            width: '95%', display: 'flex', marginLeft: '3vw',
-            height: '100%', alignItems: 'center',
-            justifyContent: 'space-between',
-            backgroundColor: 'red'
+            position: 'absolute',
+            width: '95%', 
+            marginTop: '10vh',
+            //  display: 'flex', 
+            marginLeft: '3vw',
+            height: '100vh',
+            // alignItems: 'center',
+            // justifyContent: 'space-between',
+            backgroundColor: 'red',
+
+
+
+            // display: 'flex',
+            // marginTop: 20,
+            // height: '100vh',
+            // backgroundColor:'green'
         }}>
 
-
-            <div style={{ marginTop: '17vh', flexDirection: 'row', display: 'flex' }}>
+{/* <Row> */}
+<div style={{ marginTop: '17vh', flexDirection: 'row', display: 'flex' }}>
                 <Card />
 
-                <div style={{ backgroundColor: 'PINK', width: '16vw' }} >
+{/* <Col> */}
+<div style={{ backgroundColor: 'PINK', width: '16vw' }} >
 
-                    <label className='Title'>2022 BRA
-                        COLLECTION</label>
-                    <div style={{ marginTop: '1vw' }}>
-                        <text>
-                            Check out new hottest styles.
-                        </text>
-                    </div> 
-                    <button style={{ height: '6vh', width: '7vw', marginTop: '4vh' }}>SHOP NOW</button>
-                </div>
-
-                <img
+<label className='Title'>2022 BRA
+    COLLECTION</label>
+   
+<div style={{ marginTop: '1vw' }}>
+    <text>
+        Check out new hottest styles.
+    </text>
+</div> 
+<button style={{ height: '6vh', width: '7vw', marginTop: '4vh' }}>SHOP NOW</button>
+</div>
+{/* </Col> */}
+       
+{/* <Col> */}
+<img
                     className='bra2'
                     variant="top" src={require('../../images/bra2.PNG')} alt=" bra2" />
+{/* </Col> */}
+             
 
             </div>
 
+{/* </Row> */}
+<br/>
+{/* <Row>
 
-            <div style={{ marginTop: '6vh' }}>
+    <Col> */}
+    <div style={{ marginTop: '6vh' }}>
                 <text >
                     FEATURED PRODUCTS
                 </text>
 
-                {/* <Card /> */}
+                <Card />
 
             </div>
+    {/* </Col>
 
+
+</Row> */}
+           
+
+          
         </div>
     )
 }

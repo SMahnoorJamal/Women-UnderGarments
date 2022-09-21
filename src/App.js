@@ -42,11 +42,12 @@ const AppWrapper = () => {
   return (
     // <  Card/>
     <Router>
-        <OffsettingExample/>
+     
+        {/* <OffsettingExample/> */}
       {/* < Header /> */}
-    {/* <Navbar /> 
-  
-      <App />  */}
+   
+    <Navbar /> 
+      <App /> 
     </Router>
   );
 };

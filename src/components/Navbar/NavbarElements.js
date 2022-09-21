@@ -4,7 +4,7 @@ import styled from 'styled-components';
   
 export const Nav = styled.nav`
 position: fixed;
-  // background: #63D471;
+   background-color: #63D471;
   background: white;
   height: 60px;
   display: flex;
@@ -60,7 +60,9 @@ export const Bars = styled(FaBars)`
 export const NavMenu = styled.div`
   display: flex;
   margin-left: '30vw';
-  //  align-items: center;
+ align-items: center;
+ flex-direction: 'row';
+ position: 'fixed';
   //  margin-right: 34px;
   // background-color: 'orange';
   // /* Second Nav */

@@ -6,6 +6,11 @@ import Card from '../Card/Card';
 function AutoLayoutExample() {
     return (
         <Container>
+                <div style={{
+            width: '93vw',
+            marginLeft: '3vw',
+             backgroundColor: 'red'
+        }}>
             <Row>
                 <div style={{ marginTop: '17vh', flexDirection: 'row', display: 'flex' }}>
                     <Card />
@@ -44,6 +49,7 @@ function AutoLayoutExample() {
                 </Col>
 
             </Row>
+            </div>
         </Container>
     );
 }

@@ -15,25 +15,47 @@ import { FaUserAlt } from "react-icons/fa";
 
 const Navbar = () => {
   return (
-    <>
-      <Nav>
+    // <>
+      <div style={{
+        
+  //       position: 'absolute',
+   backgroundColor: 'orange',
+  // // height: '60px',
+  // // display: 'flex',
+  // justifyContent: 'space-between',
+  // // padding: 0.2rem calc((100vw - 1000px) / 2),
+  // // z-index: 12;
+  // overflow: 'hidden',
+  // width: '100%',
+  // top: 0;
+//  borderBottom: solid 1px var(--primary-color),
+//   align-items: center,
+//   // opacity: 0.9;
+//    box-shadow: 0 0px 0px 0px white, 0 -9px 0px 0px white,
+//   12px 0 15px -4px rgba(31, 73, 125, 0.8),
+//   -12px 0 15px -4px rgba(31, 73, 125, 0.8),
+  /* Third Nav */
+   marginLeft: '5vw'
+  // paddingLeft: 6 , fontSize: '2vw'
+  /* justify-content: flex-start; */}}>
         {/* <Bars /> */}
-        <NavMenu>
+       
 
  
-<div style={{ position: 'absolute', marginLeft: '-5vw',width: '5vw', height: '10vh'}}>
+<div style={{ position: 'fixed', marginLeft: '-5vw',width: '100vw', height: '10vh'
+,backgroundColor: 'yellow'}}>
         <a href="#" style={{fontSize: '2vw'}}>Curvy</a>
+        <a style={{ paddingLeft: 6 , fontSize: '2vw'}}>Wear</a>        
 
-        <a style={{ paddingLeft: 6 , fontSize: '2vw'}}>Wear</a>
-      </div>
+        <NavMenu>
 
-
-          <div style={{
+        <div style={{
             marginLeft: '20vw',
             fontSize: '1.6vw',
-            color: 'red',
+            position: 'fixed', width: '40vw', height: '10vh'
+,
             justifyContent: 'space-between',
-            display: 'flex',
+             display: 'flex',
           }}>  <NavLink to='/'>
               Home
             </NavLink>
@@ -48,29 +70,30 @@ const Navbar = () => {
             </NavLink>
             <NavLink to='/blogs' >
               Blogs
-            </NavLink>  </div>
+            </NavLink> 
+             </div>
 
-          {/* <a href="/About"> about </a> */}
-
-
-
-          {/* Second Nav */}
-          {/* <NavBtnLink to='/sign-in'>Sign In</NavBtnLink> */}
+             
+             <div style={{
+          marginLeft: '74vw',
+          backgroundColor: 'pink'}}>
+             <  FaShoppingBasket size={27} style={{ marginLeft: '12vw' }} />
+        <  FaSistrix size={27} style={{ marginLeft: '2vw' }} />
+          <  FaUserAlt size={27} style={{ marginLeft: '2vw' }} />
+             </div>
+   
         </NavMenu>
-        {/* <NavBtn>
-          <NavBtnLink to='/signin'>Sign In</NavBtnLink>
-        </NavBtn> */}
+
+      </div>
 
         <div style={{
-          width: '10%', display: 'flex', marginRight: '15.5vw'
+           display: 'flex',
 
         }} >
-          <  FaShoppingBasket size={27} style={{ marginLeft: '2vw' }} />
-          <  FaSistrix size={27} style={{ marginLeft: '2vw' }} />
-          <  FaUserAlt size={27} style={{ marginLeft: '2vw' }} />
+       
         </div>
-      </Nav>
-    </>
+      </div>
+    // </>
   );
 };
 
