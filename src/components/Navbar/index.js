@@ -42,10 +42,16 @@ const Navbar = () => {
        
 
  
-<div style={{ position: 'fixed', marginLeft: '-5vw',width: '100vw', height: '10vh'
-,backgroundColor: 'yellow'}}>
-        <a href="#" style={{fontSize: '2vw'}}>Curvy</a>
-        <a style={{ paddingLeft: 6 , fontSize: '2vw'}}>Wear</a>        
+<div style={{ display: 'flex',
+ marginLeft: '-5vw',
+ alignItems: 'center',
+ flexDirection: 'row',
+  position: 'fixed',width: '100vw', height: '10vh',backgroundColor: 'yellow'}}>
+  <div>
+  <a href="#" style={{fontSize: '2vw'}}>Curvy</a>
+        <a style={{ paddingLeft: 6 , fontSize: '2vw'}}>Wear</a>
+  </div>
+           
 
         <NavMenu>
 
@@ -53,7 +59,8 @@ const Navbar = () => {
             marginLeft: '20vw',
             fontSize: '1.6vw',
             position: 'fixed', width: '40vw', height: '10vh'
-,
+,backgroundColor: 'gray',
+marginTop: '2vw',
             justifyContent: 'space-between',
              display: 'flex',
           }}>  <NavLink to='/'>
@@ -76,8 +83,9 @@ const Navbar = () => {
              
              <div style={{
           marginLeft: '74vw',
-          backgroundColor: 'pink'}}>
-             <  FaShoppingBasket size={27} style={{ marginLeft: '12vw' }} />
+          backgroundColor: 'pink',
+          }}>
+             <  FaShoppingBasket size={27} style={{ marginLeft: '2vw' }} />
         <  FaSistrix size={27} style={{ marginLeft: '2vw' }} />
           <  FaUserAlt size={27} style={{ marginLeft: '2vw' }} />
              </div>

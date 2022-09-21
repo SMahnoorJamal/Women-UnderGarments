@@ -12,6 +12,7 @@ const About = () => {
         // display: 'flex',
         marginTop: 20,
         width: '95%',
+      marginLeft: '2.5vw',
         // justifyContent: 'Right',
         // alignItems: 'Right',
         height: '100%',
